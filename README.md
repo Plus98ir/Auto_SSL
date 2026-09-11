@@ -9,7 +9,7 @@
 
 ---
 
-[🇮🇷 فارسی](README-Fa.md) | **🇺🇸 us English**
+[🇮🇷 فارسی](README_Fa.md) | **🇺🇸 us English**
 
 ---
 
