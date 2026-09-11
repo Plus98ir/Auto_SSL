@@ -87,7 +87,7 @@ server {
 
     location / {
         try_files $uri$uri/ =404;
+      }
     }
-}
 📝 لایسنس
 این پروژه به صورت منبع‌باز (Open-Source) و تحت لایسنس MIT منتشر شده است.
