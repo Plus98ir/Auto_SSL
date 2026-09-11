@@ -74,8 +74,9 @@ server {
 📝 License
 This project is open-source and available under the MIT License.
 
-
+```txt
 <Elicitations message="Would you like me to help you customize anything else in this README or adjust the script configuration?">
   <Elicitation label="Customize README badges" query="Can you add status badges or custom sections to this README?"/>
   <Elicitation label="Review script features" query="Let's review the script features to make sure everything is optimized."/>
 </Elicitations>
+```
