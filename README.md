@@ -28,4 +28,54 @@ A lightweight, automated, and secure SSL certificate management system designed 
 Run the following command on your Linux server with `root` privileges to install the management system and set up the Telegram bot:
 
 ```bash
-bash <(curl -s [https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/install.sh](https://raw.githubusercontent.com/YOUR_USERNAME/YOUR_REPO/main/install.sh))
+bash <(curl -fsSL https://github.com/Plus98ir/Auto_ssl-telegram_bot/releases/latest/download/install.sh)
+```
+
+During installation, the script will ask you for:
+
+Optional HTTP/HTTPS Proxy (if needed).
+
+Telegram Bot Token & Admin Chat ID (optional, can be skipped).
+
+Your email address for Certbot registration and notices.
+
+🛠️ Usage
+1. Telegram Bot Commands
+Once the bot service is running and configured, send /start to your Telegram bot to open the control panel:
+
+📊 Status: View expiration dates and paths for individual domains via interactive buttons.
+
+🔄 Renew: Choose and renew specific certificates on demand.
+
+➕ New Cert: Issue a new certificate for a domain (e.g., /newcert example.com).
+
+⬇️ Download: Select a domain and receive its certificate files directly in chat.
+
+2. Command Line Interface (CLI)
+You can access the interactive management menu anytime on your server by typing:
+
+Bash
+ssl
+⚙️ Configuration & Nginx Fallback Example
+If you are using this alongside a panel like 3X-UI with a fallback mechanism pointing to a local Nginx instance (e.g., serving a gaming/decoy HTML page on port 8040), use a clean Nginx configuration block like this:
+
+Nginx
+server {
+    listen 127.0.0.1:8040;
+    server_name yourdomain.com [www.yourdomain.com](https://www.yourdomain.com);
+    
+    root /var/www/html;
+    index index.html;
+
+    location / {
+        try_files $uri$uri/ =404;
+    }
+}
+📝 License
+This project is open-source and available under the MIT License.
+
+
+<Elicitations message="Would you like me to help you customize anything else in this README or adjust the script configuration?">
+  <Elicitation label="Customize README badges" query="Can you add status badges or custom sections to this README?"/>
+  <Elicitation label="Review script features" query="Let's review the script features to make sure everything is optimized."/>
+</Elicitations>
