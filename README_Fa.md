@@ -1,5 +1,18 @@
 # 🚀 سیستم حرفه‌ای مدیریت گواهینامه‌های SSL و ربات تلگرام
 
+
+ <p align="center">
+  <a href="https://Plus98ir.github.io">
+    <img src="https://img.shields.io/badge/Website-Plus98ir.github.io-blue?style=for-the-badge&logo=google-chrome" alt="Web Page">
+  </a>
+</p>
+
+---
+
+[us English](README.md) | **IR فارسی**
+
+---
+
 یک سیستم سبک، خودکار و امن برای مدیریت گواهینامه‌های SSL در سرورهای لینوکس. این پروژه ابزارهای **Certbot**، **Nginx** و یک **ربات اختصاصی تلگرام** را یکپارچه می‌کند تا بتوانید گواهینامه‌های خود را مستقیماً از طریق چت تلگرام یا منوی ساده ترمینال (CLI) مدیریت، تمدید و دانلود کنید یا وضعیت آن‌ها را بسنجید.
 
 ---
