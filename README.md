@@ -1,6 +1,3 @@
-# 🚀 Professional SSL Management & Telegram Bot System
-
-
  <p align="center">
   <a href="https://Plus98ir.github.io">
     <img src="https://img.shields.io/badge/Website-Plus98ir.github.io-blue?style=for-the-badge&logo=google-chrome" alt="Web Page">
@@ -12,6 +9,8 @@
 [🇮🇷 فارسی](README_Fa.md) | **🇺🇸 us English**
 
 ---
+
+# 🚀 Professional SSL Management & Telegram Bot System
 
 A lightweight, automated, and secure SSL certificate management system designed for Linux servers. It integrates **Certbot**, **Nginx**, and a dedicated **Telegram Bot** to let you manage, renew, download, and check the status of your SSL certificates directly from your chat or a clean CLI menu.
 
@@ -67,8 +66,10 @@ Once the bot service is running and configured, send /start to your Telegram bot
 2. Command Line Interface (CLI)
 You can access the interactive management menu anytime on your server by typing:
 
-Bash
+```txt
 ssl
+```
+
 ⚙️ Configuration & Nginx Fallback Example
 If you are using this alongside a panel like 3X-UI with a fallback mechanism pointing to a local Nginx instance (e.g., serving a gaming/decoy HTML page on port 8040), use a clean Nginx configuration block like this:
 
@@ -84,6 +85,8 @@ server {
         try_files $uri$uri/ =404;
     }
 }
+
+---
 📝 License
 This project is open-source and available under the MIT License.
 
