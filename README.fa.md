@@ -4,12 +4,13 @@
   </a>
 </p>
 
-<div style="direction: rtl; text-align: right;">
 
 # 🔐 Auto SSL — مدیریت گواهی Let's Encrypt با ربات تلگرام
 
 | [🇺🇸 English](README.md) | **🇮🇷 فارسی** |
 | --- | --- |
+
+<div style="direction: rtl; text-align: right;">
 
 یک نصب‌کننده که گواهی Let's Encrypt را روی سرور دبیان یا اوبونتو راه می‌اندازد،
 خودکار تمدیدش می‌کند و مدیریت همه چیز را از منوی ترمینال یا یک ربات خصوصی
