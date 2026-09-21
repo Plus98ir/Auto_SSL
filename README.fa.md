@@ -4,6 +4,8 @@
   </a>
 </p>
 
+<div style="direction: rtl; text-align: right;">
+
 # 🔐 Auto SSL — مدیریت گواهی Let's Encrypt با ربات تلگرام
 
 | [🇺🇸 English](README.md) | **🇮🇷 فارسی** |
