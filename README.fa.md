@@ -4,11 +4,11 @@
   </a>
 </p>
 
-
 # 🔐 Auto SSL — مدیریت گواهی Let's Encrypt با ربات تلگرام
 
-| [🇺🇸 English](README.md) | **🇮🇷 فارسی** |
-| --- | --- |
+<div align="center">
+<table><tr><td><a href="https://github.com/Plus98ir/Auto_SSL/blob/main/README.md">🇺🇸 English</a></td><td><b>🇮🇷 فارسی</b></td></tr></table>
+</div>
 
 <div style="direction: rtl; text-align: right;">
 

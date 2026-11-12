@@ -22,8 +22,9 @@ TA53aFyGNfSAcrCaJi9QmA9x5W47nPJcf7
 
 # 🔐 Auto SSL — Let's Encrypt manager with a Telegram bot
 
-| **🇺🇸 English** | [🇮🇷 فارسی](README.fa.md) |
-| --- | --- |
+<div align="center">
+<table><tr><td><b>🇺🇸 English</b></td><td><a href="https://github.com/Plus98ir/Auto_SSL/blob/main/README.fa.md">🇮🇷 فارسی</a></td></tr></table>
+</div>
 
 One installer that sets up Let's Encrypt certificates on a Debian or Ubuntu
 server, renews them on its own, and lets you manage everything from a terminal
