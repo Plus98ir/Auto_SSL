@@ -10,7 +10,8 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;600;800&family=JetBrains+Mono:wght@400&display=swap" rel="stylesheet">
-<style>:root{--display:'Vazirmatn',Tahoma,sans-serif;--body:'Vazirmatn',Tahoma,sans-serif}
+<style>:root{--gutter:max(50px,3vw)}@media (max-width:640px){:root{--gutter:16px}}
+:root{--display:'Vazirmatn',Tahoma,sans-serif;--body:'Vazirmatn',Tahoma,sans-serif}
 :root{
   --paper:#EAF1EC; --paper-2:#DFE9E3; --ink:#1C2B45; --muted:#50607A;
   --seal:#9C2A3C; --line:#C3D3CA; --code:#DCE7E0; --guil:#1C2B45;
@@ -33,7 +34,7 @@ body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--body);
   font-size:1.0625rem;line-height:1.65;-webkit-text-size-adjust:100%}
 a{color:var(--seal);text-underline-offset:.2em}
 a:focus-visible,button:focus-visible{outline:2px solid var(--seal);outline-offset:3px;border-radius:2px}
-.wrap{width:100%;margin:0 auto;padding:0 clamp(16px,4vw,32px)}
+.wrap{width:100%;margin:0 auto;padding:0 var(--gutter)}
 header.top{display:flex;justify-content:space-between;align-items:center;padding:1.25rem 0;font-size:.95rem}
 header.top .brand{font-weight:600;text-decoration:none;color:var(--ink)}
 header.top nav{display:flex;gap:1.25rem}
